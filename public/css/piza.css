@@ -1,0 +1,113 @@
+
+body {
+    overflow: hidden;
+   margin: 0;
+    width: 100%;
+   background-image: url(../images/b119.jpg);
+    text-align: center;
+}
+
+
+/* header */
+#header {
+   
+    width: 100%;
+      background-image: url(../images/b115.jpg);
+    
+}
+img.lo {
+    width: 300px;
+    height: 80px;
+}
+#header .logo .symbol{
+    float: left;
+}
+#header .login  a{
+    width: 130px;
+   font-size: 26px;
+    font-weight: bold;
+   margin: 0;
+    padding: 0 0 0 0;
+    text-align: center;
+    color: #111;
+    border-image: 3px solid #000;
+    background-image: url(../images/b097.jpg);
+    text-decoration: none;
+    float: right;
+}
+#header .login a:hover {
+     background-color: #CCCCCC;
+    color:#fff;
+}
+#header .login:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#menu {
+    width: 931px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: center;
+    list-style: none;
+}
+#menu li{
+  width: 130px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+#menu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#menu li a{
+    display:block;
+  line-height:40px;
+    font-weight: bold;
+    border: 1px solid #000;
+  text-align:center;
+   background-image: url(../images/b097.jpg);
+  color:#000;
+  text-decoration: none;
+}
+#menu li a:hover {
+    background-color: #FFDBC9;
+    color: #FF0000;
+}
+
+/* banner */
+.banner {
+}
+
+/* osirase */
+.osirase {
+    font-size: 24px;
+    margin: 10px 200px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+    border: 3px solid #000;
+}
+.osirase li {
+    margin: 10px 0;
+}
+
+.o{
+    margin-left: 250px;
+    text-align: left;
+}
+.o a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* copyright */
+.copyright {
+    background-color: #000;
+}
